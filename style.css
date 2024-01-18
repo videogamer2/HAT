@@ -1,0 +1,15 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name: BILLBOARDLIGHTUPGO;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+  }
+  @keyframes BILLBOARDLIGHTUPGO{
+    from{box-shadow: 0px 0px 200px black;}
+    to{box-shadow: 0px 0px 200px rgb(255, 0, 0);}
+  }
+  /*   2.2 ref   */
